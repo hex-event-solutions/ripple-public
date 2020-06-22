@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ripple public
+
+A yaml/mustache website renderer integrated with Ripple Asset Management
 
 ## Available Scripts
 
