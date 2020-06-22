@@ -3,8 +3,6 @@ import ReactMustache from 'react-mustache'
 
 const LayoutComponent = (props) => {
 
-  // console.log('received props:', props)
-
   const { type, ...others } = props
 
   const [template, setTemplate] = useState('')

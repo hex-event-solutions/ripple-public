@@ -13,8 +13,15 @@ const PageStatic = (props) => {
     return <LayoutComponent key={`${type}.${counts[type]}`} type={type} {...others} />
   })
 
+  var page_header = ''
+
+  if (page.name != 'Home') {
+    page_header = <LayoutComponent key='page-header' type='page-header' heading={page.name} />
+  }
+
   return (
     <div className='container-fluid text-center'>
+      {page_header}
       {content}
     </div>
   )
