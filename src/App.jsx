@@ -36,7 +36,7 @@ const App = () => {
 
   useEffect(() => {
     trackPromise(
-      fetch(`http://localhost:3002/template.yml`).then(res => {
+      fetch(`http://localhost:3000/website/template`).then(res => {
         if (!res.ok) {
           // TODO:
           // Show error for no template/domain found
